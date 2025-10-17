@@ -49,7 +49,7 @@ string checkDeadlineStatus(string deadline) {
     } else if (d == todayD && m == todayM && y == todayY) {
         return "⚠ Reminder: Due Today";
     } else {
-        return "📅 Upcoming";
+        return " Upcoming";
     }
 }
 
@@ -199,4 +199,5 @@ int main() {
     } while (choice != 9);
 
     return 0;
+
 }
